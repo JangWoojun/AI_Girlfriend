@@ -15,13 +15,23 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
-        let window = UIWindow(windowScene: windowScene)
+        window = UIWindow(windowScene: windowScene)
 
-        let viewController = ViewController()
-        window.rootViewController = viewController
+        let tabBarVC = UITabBarController()
 
-        window.makeKeyAndVisible()
-        self.window = window
+        let vc1 = UINavigationController(rootViewController: ViewController())
+        let vc2 = TalkViewController()
+
+        tabBarVC.setViewControllers([vc1, vc2], animated: true)
+        tabBarVC.modalPresentationStyle = .fullScreen
+        tabBarVC.tabBar.backgroundColor = .white
+
+        guard let items = tabBarVC.tabBar.items else { return }
+        items[0].image = UIImage(systemName: "house")
+        items[1].image = UIImage(systemName: "message")
+
+        window?.rootViewController = tabBarVC
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
