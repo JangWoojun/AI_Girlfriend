@@ -8,6 +8,12 @@
 import UIKit
 
 class TalkViewController: UIViewController {
+    
+    private let talkView = TalkView()
+    
+    override func loadView() {
+        view = talkView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
