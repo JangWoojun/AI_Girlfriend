@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3001D4A929BF336600F36F89 /* TalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001D4A829BF336600F36F89 /* TalkView.swift */; };
 		3001D4AB29BF343F00F36F89 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001D4AA29BF343F00F36F89 /* TalkViewController.swift */; };
-		3001D4AD29BF502900F36F89 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001D4AC29BF502900F36F89 /* TableViewCell.swift */; };
 		3001D4B129BF5EC800F36F89 /* CharacterImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001D4B029BF5EC800F36F89 /* CharacterImageModel.swift */; };
 		304724D129BB36CA0092FBA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304724D029BB36CA0092FBA8 /* AppDelegate.swift */; };
 		304724D329BB36CA0092FBA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304724D229BB36CA0092FBA8 /* SceneDelegate.swift */; };
@@ -17,12 +16,12 @@
 		304724DA29BB36CB0092FBA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304724D929BB36CB0092FBA8 /* Assets.xcassets */; };
 		304724DD29BB36CB0092FBA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304724DB29BB36CB0092FBA8 /* LaunchScreen.storyboard */; };
 		304724E829BB38560092FBA8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304724E729BB38560092FBA8 /* MainView.swift */; };
+		3059CBAE29BF62E30026B964 /* TalkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059CBAD29BF62E30026B964 /* TalkTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3001D4A829BF336600F36F89 /* TalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkView.swift; sourceTree = "<group>"; };
 		3001D4AA29BF343F00F36F89 /* TalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
-		3001D4AC29BF502900F36F89 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3001D4B029BF5EC800F36F89 /* CharacterImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterImageModel.swift; sourceTree = "<group>"; };
 		304724CD29BB36CA0092FBA8 /* AI Girlfriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Girlfriend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		304724D029BB36CA0092FBA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +31,7 @@
 		304724DC29BB36CB0092FBA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		304724DE29BB36CB0092FBA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		304724E729BB38560092FBA8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3059CBAD29BF62E30026B964 /* TalkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			children = (
 				304724E729BB38560092FBA8 /* MainView.swift */,
 				3001D4A829BF336600F36F89 /* TalkView.swift */,
-				3001D4AC29BF502900F36F89 /* TableViewCell.swift */,
+				3059CBAD29BF62E30026B964 /* TalkTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,12 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				304724D529BB36CA0092FBA8 /* ViewController.swift in Sources */,
+				3059CBAE29BF62E30026B964 /* TalkTableViewCell.swift in Sources */,
 				304724E829BB38560092FBA8 /* MainView.swift in Sources */,
 				304724D129BB36CA0092FBA8 /* AppDelegate.swift in Sources */,
 				3001D4A929BF336600F36F89 /* TalkView.swift in Sources */,
 				3001D4AB29BF343F00F36F89 /* TalkViewController.swift in Sources */,
 				3001D4B129BF5EC800F36F89 /* CharacterImageModel.swift in Sources */,
-				3001D4AD29BF502900F36F89 /* TableViewCell.swift in Sources */,
 				304724D329BB36CA0092FBA8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
