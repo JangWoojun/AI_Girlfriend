@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3001D4A929BF336600F36F89 /* TalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001D4A829BF336600F36F89 /* TalkView.swift */; };
+		3001D4AB29BF343F00F36F89 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001D4AA29BF343F00F36F89 /* TalkViewController.swift */; };
 		304724D129BB36CA0092FBA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304724D029BB36CA0092FBA8 /* AppDelegate.swift */; };
 		304724D329BB36CA0092FBA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304724D229BB36CA0092FBA8 /* SceneDelegate.swift */; };
 		304724D529BB36CA0092FBA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304724D429BB36CA0092FBA8 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3001D4A829BF336600F36F89 /* TalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkView.swift; sourceTree = "<group>"; };
+		3001D4AA29BF343F00F36F89 /* TalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
 		304724CD29BB36CA0092FBA8 /* AI Girlfriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Girlfriend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		304724D029BB36CA0092FBA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		304724D229BB36CA0092FBA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				304724E729BB38560092FBA8 /* MainView.swift */,
+				3001D4A829BF336600F36F89 /* TalkView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				304724D429BB36CA0092FBA8 /* ViewController.swift */,
+				3001D4AA29BF343F00F36F89 /* TalkViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -164,6 +170,8 @@
 				304724D529BB36CA0092FBA8 /* ViewController.swift in Sources */,
 				304724E829BB38560092FBA8 /* MainView.swift in Sources */,
 				304724D129BB36CA0092FBA8 /* AppDelegate.swift in Sources */,
+				3001D4A929BF336600F36F89 /* TalkView.swift in Sources */,
+				3001D4AB29BF343F00F36F89 /* TalkViewController.swift in Sources */,
 				304724D329BB36CA0092FBA8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
