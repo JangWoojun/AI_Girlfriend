@@ -17,7 +17,7 @@
 		304724DD29BB36CB0092FBA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304724DB29BB36CB0092FBA8 /* LaunchScreen.storyboard */; };
 		304724E829BB38560092FBA8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304724E729BB38560092FBA8 /* MainView.swift */; };
 		3059CBAE29BF62E30026B964 /* TalkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059CBAD29BF62E30026B964 /* TalkTableViewCell.swift */; };
-		309939BC29C0A955008AA8AA /* TalkChatVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309939BB29C0A955008AA8AA /* TalkChatVIew.swift */; };
+		3082F95E29C0AB5500854442 /* TalkChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3082F95D29C0AB5500854442 /* TalkChatView.swift */; };
 		309939BE29C0A97D008AA8AA /* TalkChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309939BD29C0A97D008AA8AA /* TalkChatViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		304724DE29BB36CB0092FBA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		304724E729BB38560092FBA8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3059CBAD29BF62E30026B964 /* TalkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkTableViewCell.swift; sourceTree = "<group>"; };
-		309939BB29C0A955008AA8AA /* TalkChatVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkChatVIew.swift; sourceTree = "<group>"; };
+		3082F95D29C0AB5500854442 /* TalkChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkChatView.swift; sourceTree = "<group>"; };
 		309939BD29C0A97D008AA8AA /* TalkChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +94,7 @@
 				304724E729BB38560092FBA8 /* MainView.swift */,
 				3001D4A829BF336600F36F89 /* TalkView.swift */,
 				3059CBAD29BF62E30026B964 /* TalkTableViewCell.swift */,
-				309939BB29C0A955008AA8AA /* TalkChatVIew.swift */,
+				3082F95D29C0AB5500854442 /* TalkChatView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,7 +179,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309939BC29C0A955008AA8AA /* TalkChatVIew.swift in Sources */,
 				304724D529BB36CA0092FBA8 /* ViewController.swift in Sources */,
 				3059CBAE29BF62E30026B964 /* TalkTableViewCell.swift in Sources */,
 				304724E829BB38560092FBA8 /* MainView.swift in Sources */,
@@ -188,6 +187,7 @@
 				3001D4AB29BF343F00F36F89 /* TalkViewController.swift in Sources */,
 				3001D4B129BF5EC800F36F89 /* CharacterImageModel.swift in Sources */,
 				309939BE29C0A97D008AA8AA /* TalkChatViewController.swift in Sources */,
+				3082F95E29C0AB5500854442 /* TalkChatView.swift in Sources */,
 				304724D329BB36CA0092FBA8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
