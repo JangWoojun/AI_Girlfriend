@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "91E23AE5-E1E1-4C63-B068-86DE853173F0"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI Girlfriend/Controllers/TalkViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "3166E934-0E77-4E7E-9A56-59576A2C38FB"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -30,10 +14,73 @@
             filePath = "AI Girlfriend/Controllers/TalkViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAA8E9E3-E40C-4A84-925A-E7F3CE80BDA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AI Girlfriend/Views/TalkView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "mainLabel"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BAA8E9E3-E40C-4A84-925A-E7F3CE80BDA2 - a8be227b4f9f28ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AI_Girlfriend.TalkView.tableView.getter : __C.UITableView"
+                  moduleName = "AI Girlfriend"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/woojun/Downloads/AI%20Girlfriend/AI%20Girlfriend/Views/TalkView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "BAA8E9E3-E40C-4A84-925A-E7F3CE80BDA2 - cc08a69c398dfd31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AI_Girlfriend.TalkView.init(frame: __C.CGRect) -&gt; AI_Girlfriend.TalkView"
+                  moduleName = "AI Girlfriend"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/woojun/Downloads/AI%20Girlfriend/AI%20Girlfriend/Views/TalkView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "BAA8E9E3-E40C-4A84-925A-E7F3CE80BDA2 - 38281067b98f7bb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AI_Girlfriend.TalkView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AI_Girlfriend.TalkView&gt;"
+                  moduleName = "AI Girlfriend"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/woojun/Downloads/AI%20Girlfriend/AI%20Girlfriend/Views/TalkView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
