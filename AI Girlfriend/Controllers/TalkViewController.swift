@@ -4,7 +4,7 @@ class TalkViewController: UIViewController {
     
     private let talkView = TalkView()
     private let tableView = UITableView()
-
+    
     override func loadView() {
         view = talkView
     }
@@ -14,7 +14,7 @@ class TalkViewController: UIViewController {
         
         tableView.reloadData()
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,8 +23,7 @@ class TalkViewController: UIViewController {
         
         view.addSubview(tableView)
         tableView.rowHeight = 80
-        tableView.separatorStyle = .none
-
+        
         tableView.register(TalkTableViewCell.self, forCellReuseIdentifier: "GirlFriendCell")
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -47,7 +46,7 @@ extension TalkViewController: UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "GirlFriendCell", for: indexPath) as! TalkTableViewCell
         cell.selectionStyle = .none
-
+        
         return cell
     }
     
@@ -55,8 +54,8 @@ extension TalkViewController: UITableViewDataSource {
 
 extension TalkViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let nextVC = ViewController()
-
-        navigationController?.pushViewController(nextVC, animated: true)
+        let nextVC = TalkChatViewController()
+    
+        self.navigationController?.pushViewController(nextVC, animated: true)
     }
 }
