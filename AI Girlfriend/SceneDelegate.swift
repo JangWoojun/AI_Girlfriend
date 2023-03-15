@@ -18,9 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
 
         let tabBarVC = UITabBarController()
-
-        let vc1 = UINavigationController(rootViewController: ViewController())
-        let vc2 = TalkViewController()
+        
+        let vc1 = ViewController()
+        let vc2 = UINavigationController(rootViewController: TalkViewController())
 
         tabBarVC.setViewControllers([vc1, vc2], animated: true)
         tabBarVC.modalPresentationStyle = .fullScreen
