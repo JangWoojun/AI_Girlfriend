@@ -61,6 +61,7 @@ extension TalkViewController: UITableViewDataSource {
 extension TalkViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let nextVC = TalkChatViewController()
+        nextVC.hidesBottomBarWhenPushed = true
     
         self.navigationController?.pushViewController(nextVC, animated: true)
     }

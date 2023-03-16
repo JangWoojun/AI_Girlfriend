@@ -1,4 +1,5 @@
 import UIKit
+import MessageKit
 
 class TalkChatViewController: UIViewController {
     
@@ -10,7 +11,6 @@ class TalkChatViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tabBarController?.tabBar.isHidden = true
     }
     
 
