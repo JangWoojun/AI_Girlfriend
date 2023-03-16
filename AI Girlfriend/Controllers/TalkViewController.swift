@@ -37,6 +37,7 @@ class TalkViewController: UIViewController {
         let backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: self, action: nil)
         backBarButtonItem.tintColor = .gray
 
+
         self.navigationItem.backBarButtonItem = backBarButtonItem
     }
     

@@ -19,6 +19,7 @@
 		304724E829BB38560092FBA8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304724E729BB38560092FBA8 /* MainView.swift */; };
 		3059CBAE29BF62E30026B964 /* TalkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059CBAD29BF62E30026B964 /* TalkTableViewCell.swift */; };
 		309939BE29C0A97D008AA8AA /* TalkChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309939BD29C0A97D008AA8AA /* TalkChatViewController.swift */; };
+		34C3908427236787D81CA833 /* Pods_AI_Girlfriend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4B54A01B8DF03989500E4 /* Pods_AI_Girlfriend.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,9 @@
 		304724E729BB38560092FBA8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3059CBAD29BF62E30026B964 /* TalkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkTableViewCell.swift; sourceTree = "<group>"; };
 		309939BD29C0A97D008AA8AA /* TalkChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkChatViewController.swift; sourceTree = "<group>"; };
+		68FFE15551133A7C188B62FA /* Pods-AI Girlfriend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI Girlfriend.debug.xcconfig"; path = "Target Support Files/Pods-AI Girlfriend/Pods-AI Girlfriend.debug.xcconfig"; sourceTree = "<group>"; };
+		9FC2A4A770518963B574A464 /* Pods-AI Girlfriend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI Girlfriend.release.xcconfig"; path = "Target Support Files/Pods-AI Girlfriend/Pods-AI Girlfriend.release.xcconfig"; sourceTree = "<group>"; };
+		BFA4B54A01B8DF03989500E4 /* Pods_AI_Girlfriend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_Girlfriend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C3908427236787D81CA833 /* Pods_AI_Girlfriend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,8 @@
 			children = (
 				304724CF29BB36CA0092FBA8 /* AI Girlfriend */,
 				304724CE29BB36CA0092FBA8 /* Products */,
+				9F01EDE2ABB7CBB25913BB52 /* Pods */,
+				364857803850059320756531 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +116,24 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		364857803850059320756531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFA4B54A01B8DF03989500E4 /* Pods_AI_Girlfriend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F01EDE2ABB7CBB25913BB52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68FFE15551133A7C188B62FA /* Pods-AI Girlfriend.debug.xcconfig */,
+				9FC2A4A770518963B574A464 /* Pods-AI Girlfriend.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 304724E129BB36CB0092FBA8 /* Build configuration list for PBXNativeTarget "AI Girlfriend" */;
 			buildPhases = (
+				6BAA80D951C5FECEB07DDAE2 /* [CP] Check Pods Manifest.lock */,
 				304724C929BB36CA0092FBA8 /* Sources */,
 				304724CA29BB36CA0092FBA8 /* Frameworks */,
 				304724CB29BB36CA0092FBA8 /* Resources */,
+				4E8B5251EC81F7CBE5664304 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,6 +200,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E8B5251EC81F7CBE5664304 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AI Girlfriend/Pods-AI Girlfriend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AI Girlfriend/Pods-AI Girlfriend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AI Girlfriend/Pods-AI Girlfriend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BAA80D951C5FECEB07DDAE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AI Girlfriend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		304724C929BB36CA0092FBA8 /* Sources */ = {
@@ -322,6 +391,7 @@
 		};
 		304724E229BB36CB0092FBA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FFE15551133A7C188B62FA /* Pods-AI Girlfriend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -353,6 +423,7 @@
 		};
 		304724E329BB36CB0092FBA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC2A4A770518963B574A464 /* Pods-AI Girlfriend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
