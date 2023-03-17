@@ -22,7 +22,7 @@ class TalkTableViewCell: UITableViewCell {
         let tv = UILabel()
         tv.textColor = .gray
         tv.font = .systemFont(ofSize: 15)
-        tv.text = "오늘은 뭐하고 왔어 성준아?"
+        tv.text = "그는 신이야"
         
         return tv
     }()
