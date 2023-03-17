@@ -69,6 +69,11 @@ class TalkChatViewController: MessagesViewController, MessagesDataSource, Messag
         sendButtonClicked()
     }
     
+    func configureAvatarView(_ avatarView: AvatarView, for message: MessageType, at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) {
+        avatarView.set(avatar: Avatar(image: UIImage(named: "girlfriend2")))
+        
+    }
+    
     
     
 }
