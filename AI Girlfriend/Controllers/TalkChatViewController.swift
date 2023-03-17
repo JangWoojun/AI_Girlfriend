@@ -32,6 +32,9 @@ class TalkChatViewController: MessagesViewController, MessagesDataSource, Messag
         messagesCollectionView.messagesLayoutDelegate = self
         messagesCollectionView.messagesDisplayDelegate = self
         
+        messages.append(Message(sender: otherUser, messageId: "1", sentDate: Date().addingTimeInterval(-86400), kind: .text("오늘은 뭐하고 왔어 OO아?")))
+        
+        messages.append(Message(sender: currentUser, messageId: "3", sentDate: Date().addingTimeInterval(-86400), kind: .text("난")))
     }
     
     func currentSender() -> MessageKit.SenderType {
